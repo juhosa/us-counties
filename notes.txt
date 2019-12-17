@@ -1,0 +1,9 @@
+This data can be acquired multiple different ways.
+
+in browser dev tools:
+
+document.querySelectorAll('.wikitable tbody tr td:first-child > a').forEach(function(a) {console.log(a.text)})
+
+in python:
+
+use pandas.read_html()
